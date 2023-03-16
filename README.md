@@ -17,7 +17,7 @@ You could do it manually in the [Azure Portal](https://portal.azure.com/).
 1. Ensure that the application is enabled for the [authorization code flow with PKCE](https://docs.microsoft.com/en-gb/azure/active-directory/develop/v2-oauth2-auth-code-flow). This will require that you redirect URI configured in the portal is of type SPA.
 1. For this sample we will create a [single tenant application](https://docs.microsoft.com/en-us/azure/active-directory/develop/single-and-multi-tenant-apps)
 
-### Configure the sample
+### Configure the Code
 
 1. Copy the value of the `Application (client) ID` of the newly registered application from Azure Portal. You can get this from the overview page of the newly registered application.
 1. In the `auth.js` file, on line 4, replace the value of the `clientId` property with the copied `Application (client) ID`
